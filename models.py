@@ -66,7 +66,7 @@ class STN_attention_network(nn.Module):
         self.fc_loc[2].weight.data.zero_()
         self.fc_loc[2].bias.data.zero_()
         self.fc_loc[2].bias.data.copy_(
-            torch.tensor([1, 0, 0, 0], dtype=torch.float)) 
+            torch.tensor([1, 0.1, 0, 0], dtype=torch.float)) 
         #Bias dimensions match the number of theta parameters to predict, and the values 
         #can be initialized as identity matrix or other established value.
         
@@ -150,7 +150,7 @@ class STERN_attention_network(nn.Module):
         self.fc_loc[2].weight.data.zero_()
         self.fc_loc[2].bias.data.zero_()
         self.fc_loc[2].bias.data.copy_(
-            torch.tensor([1, 0, 0, 0], dtype=torch.float)) 
+            torch.tensor([1, 0.1, 0, 0], dtype=torch.float)) 
         #Bias dimensions match the number of theta parameters to predict, and the values 
         #can be initialized as identity matrix or other established value.
 
