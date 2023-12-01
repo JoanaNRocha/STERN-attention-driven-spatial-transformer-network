@@ -64,7 +64,11 @@ for epoch in range(epochs):
 ```
 
 ### Credits
-If you use this code, please cite the following publication: 
+If you use this code, please cite the following publications: 
 
-**Rocha, Joana, et al. "Attention-driven Spatial Transformer Network for Abnormality Detection in Chest X-Ray Images." 2022 IEEE 35th International Symposium on Computer-Based Medical Systems (CBMS). IEEE, 2022. https://doi.org/10.1109/CBMS55023.2022.00051**
+**Rocha, Joana, et al. "STERN: Attention-driven Spatial Transformer Network for abnormality detection in chest X-ray images." Artificial intelligence in medicine 147 (2024): 102737. [https://doi.org/10.1109/CBMS55023.2022.00051](https://doi.org/10.1016/j.artmed.2023.102737)**
+
+**Rocha, Joana, et al. "Attention-driven Spatial Transformer Network for Abnormality Detection in Chest X-Ray Images." 2022 IEEE 35th International Symposium on Computer-Based Medical Systems (CBMS). IEEE, 2022. [https://doi.org/10.1109/CBMS55023.2022.00051](https://doi.org/10.1109/CBMS55023.2022.00051)**
+
+
 
