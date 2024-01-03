@@ -101,7 +101,9 @@ class STERN_attention_network(nn.Module):
     Allows non-isotropic scaling and translations to modify original input images, with a scaling factor constraint, for attention purposes.
     
     As published in:
-    ((WIP))   
+    Rocha, Joana, et al. "STERN: Attention-driven Spatial Transformer Network for abnormality detection in chest X-ray images." 
+    Artificial Intelligence in Medicine 147 (2024): 102737.   
+    https://doi.org/10.1016/j.artmed.2023.102737
     '''
     
     def __init__(self, scaling_factor):
